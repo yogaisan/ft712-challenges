@@ -264,7 +264,7 @@
       </a>
 
       <a
-        class=""
+        class="card-category"
         style="
           background-image: linear-gradient(
               rgba(0, 0, 0, 0.3),
@@ -280,7 +280,7 @@
 
     <!--newsletter Section-->
     <div class="newsletter-bloc">
-          <div class="email-bloc">
+          <div class="news-email-column">
               <div class="news-heading">
                           <h2 class="module-title">
                               Newsletter
@@ -334,7 +334,7 @@
                           >
                       </div>
             </div>
-        <img src="https://images.unsplash.com/photo-1592727995117-4cdc7ee6fcb4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80">
+        <img id = "news-image" src="https://images.unsplash.com/photo-1592727995117-4cdc7ee6fcb4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80">
     </div>
 
 
@@ -385,32 +385,8 @@
     <div class="footer">
         <p> © copyright Fabrice Madré | Le Wagon (Web development Bootcamp) | Les Kokottes, Moka, Mauritius </p>
     </div>
+
     <!-- JQuery & Javascript Scripts-->
-    <script>
-      // ***navbar JS***
-        const navbar = document.querySelector(".navbar");
-        const navWrapper = document.querySelector(".nav-wrapper")
-
-
-        const dropdown = document.querySelector(".dropdown")
-        const dropdownList = document.querySelector(".dropdown-content-left")
-        dropdown.addEventListener('click', () => {
-          if (dropdownList.style.display === "none") {
-            dropdownList.style.display = "block";
-          } else {
-            dropdownList.style.display = "none";
-          };
-        });
-
-        window.addEventListener("scroll", () => {
-        if (window.scrollY >= window.innerHeight / 4) {
-            navbar.classList.add("navbar-white");
-            navWrapper.classList.add("top");
-        } else {
-            navbar.classList.remove("navbar-white");
-            navWrapper.classList.remove("top");
-        }
-        });
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
