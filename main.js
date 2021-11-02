@@ -13,15 +13,26 @@ window.addEventListener("scroll", () => {
 });
 
 // ***Display email submitted in navbar***
-const submitBtn = document.querySelector('.form')
+const form = document.querySelector('.form')
 const emailInput = document.querySelector('.input-element')
 const account = document.getElementById('account')
+const submitBtn = document.querySelector('.submit-button')
 
-submitBtn.addEventListener('submit', (event) => {
+form.addEventListener('submit', (event) => {
   event.preventDefault();
-  emailInput.innerHTML = ' ';
   account.innerHTML = emailInput.value;
+  emailInput.value = '';
+  submitBtn.disabled = true;
 });
+
+emailInput.addEventListener('keyup', () => {
+  if (emailInput.value === '') {
+    submitBtn.disabled = true;
+  } else {
+    submitBtn.disabled = false;
+  }
+});
+
 
 // ***dropdown JS***
 /*

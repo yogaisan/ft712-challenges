@@ -53,16 +53,6 @@
   color: #303030e3;
 }
 
-.submit-button {
-  font-size: large;
-  font-weight: 600;
-  background-color: #ddd;
-  position: relative;
-  padding: 19px 35px;
-  border-radius: 0 15px 15px 0;
-  z-index: 1;
-}
-
 .module-text {
   font-size: larger;
   color: cadetblue;
@@ -83,6 +73,7 @@
   justify-content: space-around;
   align-items: center;
   margin: 0;
+  font-family: cursive;
 }
 
 .news_footer span {
