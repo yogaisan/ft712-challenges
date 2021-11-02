@@ -12,6 +12,17 @@ window.addEventListener("scroll", () => {
   }
 });
 
+// ***Display email submitted in navbar***
+const submitBtn = document.querySelector('.form')
+const emailInput = document.querySelector('.input-element')
+const account = document.getElementById('account')
+
+submitBtn.addEventListener('submit', (event) => {
+  event.preventDefault();
+  emailInput.innerHTML = ' ';
+  account.innerHTML = emailInput.value;
+});
+
 // ***dropdown JS***
 /*
 const dropdownLeft = document.querySelectorAll(".left-menu .dropdown")

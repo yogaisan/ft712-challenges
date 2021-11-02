@@ -1,0 +1,25 @@
+.btn {
+  padding: 15px 35px 15px 35px;
+  font-size: large;
+  border-radius: 4px;
+  border: 1px solid #303030;
+}
+
+.btn-cta {
+  color: rgb(255, 255, 255);
+  background-color: #30303040 ;
+}
+
+.btn-cta:hover {
+  background-color: #303030e3 ;
+}
+
+.dropbtn {
+  color: rgb(91, 148, 148);
+  padding: 16px 16px 0 16px;
+  margin-bottom: 16px;
+  font-size: large;
+  border: none;
+  transition: 2s ease-in-out;
+  cursor: pointer;
+}

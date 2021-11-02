@@ -1,0 +1,15 @@
+.team-text-section {
+  width: 16%;
+  text-align: justify;
+  padding: 20px;
+}
+
+.content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  width: 50vw;
+}
