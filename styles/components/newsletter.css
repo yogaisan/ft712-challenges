@@ -1,11 +1,3 @@
-.module-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #30303040;
-  z-index: -3;
-}
-
 .newsletter-bloc {
   display: flex;
   justify-content: center;
