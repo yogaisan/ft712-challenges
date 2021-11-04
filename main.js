@@ -33,7 +33,6 @@ emailInput.addEventListener('keyup', () => {
   }
 });
 
-
 // ***dropdown JS***
 /*
 const dropdownLeft = document.querySelectorAll(".left-menu .dropdown")
