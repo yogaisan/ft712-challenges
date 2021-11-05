@@ -10,7 +10,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: #e2e2e2cb;
   margin: 0;
   width: 100vw;
@@ -20,7 +20,7 @@
 
 .navbar-white {
   border-radius: 100px;
-  background-color: white;
+  background-color: rgb(236, 231, 231);
   height: 100px;
   width: 80vw;
 }
@@ -109,7 +109,9 @@ li > a:hover {
   align-items: center;
 }
 
-.dropdown:hover .dropbtn {border-bottom: solid 1px #303030;}
+.dropdown:hover .dropbtn {
+  border-bottom: solid 1px #303030;
+}
 
 /*
 .dropdown-display {
